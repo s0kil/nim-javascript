@@ -10,6 +10,6 @@
 
 The result (`dist/calculator.min.js`) is like hand written JavaScript.
 
-|                                                        Before (Nim JS)                                                         |                                                      After (JavaScript)                                                       |
-| :----------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
-| <img height="600px" src="https://rawcdn.githack.com/s0kil/nim-javascript/98a71fc78f569c77585842c87fb1e6767b579289/before.png"> | <img height="600px" src="https://rawcdn.githack.com/s0kil/nim-javascript/98a71fc78f569c77585842c87fb1e6767b579289/after.png"> |
+|                                                 Before (Nim JS)                                                 |                                               After (JavaScript)                                               |
+| :-------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
+| <img src="https://rawcdn.githack.com/s0kil/nim-javascript/98a71fc78f569c77585842c87fb1e6767b579289/before.png"> | <img src="https://rawcdn.githack.com/s0kil/nim-javascript/98a71fc78f569c77585842c87fb1e6767b579289/after.png"> |
