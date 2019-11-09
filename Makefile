@@ -20,12 +20,8 @@ release:
 
 	prepack dist/calculator.js --out dist/calculator.prepack.js
 
-	# uglifyjs --compress --mangle -- dist/calculator.prepack.js > dist/calculator.uglify.js
-	# terser --compress --mangle -- dist/calculator.prepack.js > dist/calculator.terser.js
-	# babel-minify --mangle --simplify --deadcode --evaluate dist/calculator.prepack.js > dist/calculator.babel.js
-
-	# --compilation_level=ADVANCED
 	google-closure-compiler \
+	--compilation_level=ADVANCED \
 	--js_output_file=dist/calculator.min.js \
 	--js=dist/calculator.prepack.js
 

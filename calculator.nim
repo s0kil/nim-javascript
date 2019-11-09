@@ -1,9 +1,16 @@
 import dom
 
-func add(a, b: int): int =
-  return a + b
-
 proc onLoad(event: Event) =
-  echo add(5, 5)
+  let
+    output = document.createTextNode("")
+    input = document.createElement("input")
+
+  input.addEventListener("input",
+    proc(event: Event) = output.nodeValue = input.value
+  )
+
+  document.body.appendChild(input)
+  document.body.appendChild(document.createElement("hr"))
+  document.body.appendChild(output)
 
 window.onload = onLoad
