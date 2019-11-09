@@ -1,4 +1,4 @@
-#### Steps
+## Steps
 
 1. `dist/calculator.js` Nim JS Output
 
@@ -6,6 +6,6 @@
 
 3. `dist/calculator.min.js` Optimized with Closure Compiler
 
-#### Conclusion
+## Conclusion
 
 The result (`dist/calculator.min.js`) is like hand written JavaScript.
